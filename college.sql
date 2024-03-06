@@ -1,0 +1,16 @@
+CREATE DATABASE company;
+USE company;
+
+CREATE TABLE company(
+id INT PRIMARY KEY, 
+name VARCHAR(50), 
+salary INT NOT NULL);
+INSERT INTO company VALUES
+(101,"VAIBHAVI",20000),
+(102,"VAIBHAV",150000),
+(103,"SURESH", 12000);
+SELECT*FROM company;
+
+
+
+
